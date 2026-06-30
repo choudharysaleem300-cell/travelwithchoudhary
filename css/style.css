@@ -1921,3 +1921,118 @@ FOOTER
     white-space: nowrap;
     flex-shrink: 0;
 }
+
+
+/*==========================
+MOBILE RESPONSIVE
+==========================*/
+
+@media (max-width:768px){
+
+.container{
+    width:95%;
+}
+
+.top-bar .container{
+    flex-direction:column;
+    gap:10px;
+    text-align:center;
+}
+
+.top-bar .left,
+.top-bar .right{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.navbar .container{
+    flex-direction:column;
+    padding:15px 0;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.navbar ul{
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+    margin:15px 0;
+}
+
+.navbar ul li a{
+    font-size:15px;
+}
+
+.book-btn{
+    width:100%;
+    text-align:center;
+}
+
+.hero{
+    min-height:80vh;
+}
+
+.hero-content h1{
+    font-size:38px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+.hero-buttons{
+    flex-direction:column;
+}
+
+.primary-btn,
+.secondary-btn{
+    width:100%;
+}
+
+.section-title h2{
+    font-size:30px;
+}
+
+.route-grid,
+.package-grid,
+.gallery-grid,
+.reviews-grid,
+.services-grid,
+.fleet-grid{
+    grid-template-columns:1fr;
+}
+
+.why-grid{
+    grid-template-columns:1fr;
+}
+
+.taxi-container{
+    grid-template-columns:1fr;
+}
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.contact-grid{
+    grid-template-columns:1fr;
+}
+
+.footer-grid{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.footer-social{
+    justify-content:center;
+}
+
+.footer-bottom{
+    flex-direction:column;
+    text-align:center;
+}
+
+}
