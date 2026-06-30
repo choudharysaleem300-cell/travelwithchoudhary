@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Settings</title>
+
+    <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body>
+
+    <div class="admin">
+
+        <aside class="sidebar">
+
+            <h2>Admin Panel</h2>
+
+            <a href="dashboard.html">Dashboard</a>
+            <a href="trips.html">Trips</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="settings.html" class="active">Settings</a>
+
+            <a href="#" id="logoutBtn">Logout</a>
+
+        </aside>
+
+        <main class="content">
+
+            <h1>Website Settings</h1>
+
+            <div class="settings-card">
+
+                <label>Company Name</label>
+                <input id="company_name">
+
+                <label>Phone</label>
+                <input id="phone">
+
+                <label>WhatsApp</label>
+                <input id="whatsapp">
+
+                <label>Email</label>
+                <input id="email">
+
+                <label>Address</label>
+                <textarea id="address"></textarea>
+
+                <label>Hero Title</label>
+                <input id="hero_title">
+
+                <label>Hero Subtitle</label>
+                <textarea id="hero_subtitle"></textarea>
+
+                <label>Facebook</label>
+                <input id="facebook">
+
+                <label>Instagram</label>
+                <input id="instagram">
+
+                <label>YouTube</label>
+                <input id="youtube">
+
+                <label>Footer Text</label>
+                <input id="footer_text">
+
+                <button class="yellow-btn" id="saveBtn">
+
+Save Changes
+
+</button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+    <script src="../js/supabase.js"></script>
+
+    <script src="../js/config.js"></script>
+
+    <script src="js/admin-settings.js"></script>
+
+</body>
+
+</html>

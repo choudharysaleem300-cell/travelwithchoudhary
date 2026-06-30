@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Reviews | Travel With Choudhary</title>
+
+    <meta name="description" content="Read genuine customer reviews and share your travel experience with Travel With Choudhary.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="top-bar">
+
+            <div class="container">
+
+                <div class="left">
+
+                    <a id="phone-link" href="#">
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <span id="phone-number">Loading...</span>
+
+                    </a>
+
+                    <a id="email-link" href="#">
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <span class="company-email">Loading...</span>
+
+                    </a>
+
+                </div>
+
+                <div class="right">
+
+                    <a id="facebook-link" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                    <a id="instagram-link" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                    <a id="youtube-link" href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <nav class="navbar">
+
+            <div class="container">
+
+                <div class="logo">
+
+                    Travel<span>WithChoudhary</span>
+
+                </div>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="routes.html">Routes</a></li>
+                    <li><a href="fleet.html">Fleet</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="reviews.html" class="active">Reviews</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+                <a href="booking.html" class="book-btn">
+
+Book Now
+
+</a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section class="page-hero">
+
+        <div class="hero-content">
+
+            <span class="hero-tag">
+
+Customer Reviews
+
+</span>
+
+            <h1>
+
+                What Our Customers Say
+
+            </h1>
+
+            <p>
+
+                Read real customer experiences and share your own journey with us.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="reviews-page">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Testimonials</span>
+
+                <h2>Trusted By Travelers</h2>
+
+                <p>
+
+                    Thousands of happy customers have travelled with us.
+
+                </p>
+
+            </div>
+
+            <!-- Dynamic Reviews -->
+
+            <div id="reviews-container" class="reviews-grid">
+
+                Loading Reviews...
+
+            </div>
+
+            <hr style="margin:70px 0;">
+
+            <div class="section-title">
+
+                <span>Write A Review</span>
+
+                <h2>Share Your Experience</h2>
+
+            </div>
+
+            <form id="reviewForm" class="review-form">
+
+                <input type="text" id="customerName" placeholder="Your Name" required>
+
+                <input type="text" id="customerCity" placeholder="Your City" required>
+
+                <select id="rating" required>
+
+<option value="">Select Rating</option>
+
+<option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+
+<option value="4">⭐⭐⭐⭐ Very Good</option>
+
+<option value="3">⭐⭐⭐ Good</option>
+
+<option value="2">⭐⭐ Fair</option>
+
+<option value="1">⭐ Poor</option>
+
+</select>
+
+                <textarea id="reviewText" rows="6" placeholder="Write your review..." required></textarea>
+
+                <button type="submit" class="book-btn">
+
+Submit Review
+
+</button>
+
+            </form>
+
+        </div>
+
+    </section>
+    <!-- ===========================
+CALL TO ACTION
+=========================== -->
+
+    <section class="cta-section">
+
+        <div class="container">
+
+            <div class="cta-box">
+
+                <h2>
+
+                    Ready For Your Next Journey?
+
+                </h2>
+
+                <p>
+
+                    Book your taxi today and enjoy a safe, comfortable and reliable journey with Travel With Choudhary.
+
+                </p>
+
+                <div class="cta-buttons">
+
+                    <a href="booking.html" class="btn-primary">
+
+                    Book Now
+
+                </a>
+
+                    <a href="#" class="btn-secondary whatsapp-btn">
+
+                    WhatsApp Us
+
+                </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ===========================
+FOOTER START
+=========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <!-- Company -->
+
+            <div class="footer-col">
+
+                <h3 class="company-name">
+
+                    Travel With Choudhary
+
+                </h3>
+
+                <p>
+
+                    Your trusted taxi partner for Katra, Jammu, Kashmir, Amritsar, Srinagar, Gulmarg, Sonmarg, Pahalgam and Leh Ladakh.
+
+                </p>
+
+                <div class="footer-social">
+
+                    <a id="facebook-link" href="#" target="_blank">
+
+                        <i class="fab fa-facebook-f"></i>
+
+                    </a>
+
+                    <a id="instagram-link" href="#" target="_blank">
+
+                        <i class="fab fa-instagram"></i>
+
+                    </a>
+
+                    <a id="youtube-link" href="#" target="_blank">
+
+                        <i class="fab fa-youtube"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Quick Links -->
+
+            <div class="footer-col">
+
+                <h4>
+
+                    Quick Links
+
+                </h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="about.html">About</a></li>
+
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="routes.html">Routes</a></li>
+
+                    <li><a href="fleet.html">Fleet</a></li>
+
+                    <li><a href="gallery.html">Gallery</a></li>
+
+                    <li><a href="reviews.html">Reviews</a></li>
+
+                    <li><a href="faq.html">FAQ</a></li>
+
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            <!-- Popular Routes -->
+
+            <div class="footer-col">
+
+                <h4>
+
+                    Popular Routes
+
+                </h4>
+
+                <ul>
+
+                    <li>Katra → Jammu</li>
+
+                    <li>Katra → Srinagar</li>
+
+                    <li>Katra → Gulmarg</li>
+
+                    <li>Katra → Sonmarg</li>
+
+                    <li>Katra → Pahalgam</li>
+
+                    <li>Katra → Amritsar</li>
+
+                    <li>Katra → Leh</li>
+
+                </ul>
+
+            </div>
+
+            <!-- Contact -->
+
+            <div class="footer-col">
+
+                <h4>
+
+                    Contact Us
+
+                </h4>
+
+                <p>
+
+                    📞
+
+                    <span class="company-phone">
+
+                    Loading...
+
+                </span>
+
+                </p>
+
+                <p>
+
+                    📧
+
+                    <span class="company-email">
+
+                    Loading...
+
+                </span>
+
+                </p>
+
+                <p>
+
+                    📍 Katra, Jammu & Kashmir
+
+                </p>
+
+                <a href="booking.html" class="footer-book-btn">
+
+                Book Taxi Now
+
+            </a>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026
+
+                <span class="company-name">
+
+                Travel With Choudhary
+
+            </span> | All Rights Reserved.
+
+            </p>
+
+            <a href="admin/login.html" class="admin-login-btn">
+
+                <i class="fa-solid fa-user-shield"></i> Admin Login
+
+            </a>
+
+        </div>
+
+    </footer>
+
+    <!-- ===========================
+FOOTER END
+=========================== -->
+
+    <!-- ===========================
+SCRIPTS
+=========================== -->
+
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+
+    <script src="js/supabase.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        const reviewForm = document.getElementById("reviewForm");
+
+        reviewForm.addEventListener("submit", async function(e) {
+
+            e.preventDefault();
+
+            const db = window.supabaseClient;
+
+            const review = {
+
+                customer_name: document.getElementById("customerName").value,
+
+                city: document.getElementById("customerCity").value,
+
+                rating: Number(document.getElementById("rating").value),
+
+                review: document.getElementById("reviewText").value,
+
+                approved: false
+
+            };
+
+            const {
+                error
+            } = await db
+
+                .from("reviews")
+
+            .insert([review]);
+
+            if (error) {
+
+                alert(error.message);
+
+                return;
+
+            }
+
+            alert("✅ Thank you! Your review has been submitted and is waiting for admin approval.");
+
+            reviewForm.reset();
+
+        });
+    </script>
+
+</body>
+
+</html>
